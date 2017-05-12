@@ -115,8 +115,8 @@ Note that every odd index value in `oopsArray` is currently `undefined`. Using a
 
 var oopsArray = ['turn' , , 'down' , , 'for' , , 'what' ];
 
-for(var i = 0; i < 7; i++){
-	if(i%2 !== 0){
+for(var i = 0; i < oopsArray.length; i++){
+	if(i%2 === 1){
 		oopsArray[i] = 'nope';
 	}
 }
@@ -135,6 +135,9 @@ nope
 turn
 */
 
+//for(i = 6, i > -1; i--){
+	//console.log(oopsArray(i));
+//}
 
 /* 9) Siesta Time
 Declare a variable named `napSchedule` and assign its value to the following array: `[false, false, true, false, true, true]`
