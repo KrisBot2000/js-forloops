@@ -98,14 +98,13 @@ Console.log your results.
 */
 var oddSum = 0;
 
-for(var i = 0; i < 100; i++){
+for(var i = 1; i < 100; i++){
 	if(i%2 !==0){
-		oddSum = oddSum + i;
-		console.log(oddSum);
+		oddSum += i;
 	}
 }  
 
-
+console.log(oddSum);
 
 /* 7) Oops There It is
 Declare a variable named `oopsArray` and assign its to the following array: `[ 'turn' , , 'down' , , 'for' , , 'what' ]`.
