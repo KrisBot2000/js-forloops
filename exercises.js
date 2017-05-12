@@ -52,6 +52,17 @@ var presidents = ["Washington", "Adams", "Jefferson", "Madison", "Monroe"];
 for(var i = 0; i < 5; i++){
 	console.log("The value at " + i + " is " + presidents[i] + ".");
 }
+
+console.log(presidents.length);
+
+function leaders (person){
+	for(i = 0; i < person.length; i++){
+		console.log("President " + person[i] + " was a great leader.");
+	}	
+}
+
+leaders (presidents);
+
 /* 4) Line Number
 Declare a variable named `stringOfNumbers` and assign its value to an empty string. 
 
@@ -69,7 +80,14 @@ Declare a variable named `evenNumArr` and assign its value to an empty array.
 Write a for-loop that will push even numbers to the `evenNumArr` array. We want to push 50 even even numbers starting from 0.
 Console.log your results.
 */
+//var evenNumArr = [];
 
+//for(var i = 0; i < 50; i++){
+	
+	//evenNumArr[i] = i;
+	//console.log(evenNumArr);
+
+//}
 
 /* 6) Up the Odds
 Declare a variable named `oddSum` and assign it to the Number value 0.
