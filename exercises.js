@@ -70,9 +70,11 @@ Write a for-loop that concatenates a Number value into that string on each itera
 var stringOfNumbers = "";
 
 for(var i = 10; i < 21; i++){
-	stringOfNumbers = stringOfNumbers + i;
-	console.log(stringOfNumbers);
+	stringOfNumbers += i;
+	
 }
+
+console.log(stringOfNumbers);
 
 /* 5) Even Stevens
 Declare a variable named `evenNumArr` and assign its value to an empty array. 
@@ -195,7 +197,20 @@ Declare a variable named `topQuote` and assign it to a String value of your favo
 Write a function that will iterate through the string value and return the longest word in that quote. Console.log your result.
 */
 
+//var topQuote = "Well behaved women seldom make history.";
 
+
+//	var longestWordRightNow = "";
+	//var strToArray = str.split(" ");
+	//for(i = 0; i > strToArray.length; i++){
+		//if(strToArray[i].length > longestWordRightNow.length){
+			//longestWordRightNow = strToArray[i].length;
+		//}
+	//}
+	//return longestWordRightNow;
+//} 
+
+//console.log(longestWord(topQuote));
 
 /* 12) Puppet Master
 Declare a variable named `miscStorage` set it's value to be: `[ [], 'Carrots', 9, 'Beets', {}, {name: "Todd B."}, 'Mush' ]`
@@ -206,13 +221,17 @@ Write a function named `generateArrayOfStrings` which takes a single argument `s
 
 */
 
+//var miscStorage = [ [], 'Carrots', 9, 'Beets', {}, {name: "Todd B."}, 'Mush' ];
 
+//function generateArrayOfStrings(storage){
+
+//}
 
 /* 13) All Grown Up 
 Write a function that will capitalize the first letter in each word in the phrase below. The function will console.log the message: "I've Lived A Life That's Full. I've Traveled Each And Every Highway. But More, Much More Than This. I Did It My Way."  
 */
 
-var myWay = "i've lived a life that's full, i've traveled each and every highway. but more, much more than this. i did it my way.";
+//var myWay = "i've lived a life that's full, i've traveled each and every highway. but more, much more than this. i did it my way.";
 
 
 
@@ -226,4 +245,13 @@ The function will iterate through the `cohort` argument and check each student's
 If the `enrolled` property is set to `true` then change that student's `graduated` property to `true`. Otherwise, if `enrolled` is set to `false` then change `enrolled` to `true` leaving `graduated` alone and unchanged.
 Console.log your result.
 */
+
+//var currentCohort = [array found here](https://gist.github.com/sgnl/e40879b2249e06ca7811);
+
+//function graduateAndSetNewClass(cohort){
+
+//}
+
+//console.log(currentCohort);
+
 
